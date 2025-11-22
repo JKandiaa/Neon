@@ -1,8 +1,9 @@
 from django.contrib import admin
-from .models import neon
+from .models import Neon
+
 
 # Register your models here.
-@admin.register(neon)
+@admin.register(Neon)
 class NeonAdmin(admin.ModelAdmin):
     list_display = ('name', )
     

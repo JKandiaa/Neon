@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class NeonModel(models.Model):
+class Neon(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
 
